@@ -10,7 +10,10 @@ export default {
         'display': ['Playfair Display', 'serif'],
         'body': ['Inter', 'sans-serif'],
       },
-      colors: {
+colors: {
+        border: 'hsl(var(--border))',
+        input: 'hsl(var(--input))',
+        ring: 'hsl(var(--ring))',
         primary: '#1A1A1A',
         secondary: '#FF4757',
         accent: '#3742FA',
